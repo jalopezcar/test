@@ -1,0 +1,9 @@
+environment:
+  language: java
+
+build:
+  #checkout:
+  #  - export START_TIME=`date +%s`    
+  #  - curl https://raw.github.groupondev.com/mobile/monorepo-mga/master/ci/checkout | bash
+  run:    
+    - cd app && fastlane tests
