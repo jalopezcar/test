@@ -1,10 +1,14 @@
 node {
-   environment 
+   environment { 
     	PATH = "/usr/local/bin:$PATH"
+   }
 
-   stage 'Checkout and Setup'
-		checkout scm
-
-   stage 'Build'
-		sh "cd app && fastlane tests"
+   stages { 
+        stage('Checkout and Setup') { 
+			checkout scm
+		}
+	   	stage('Build') {
+			sh "cd app && fastlane tests"
+		}
+	}
 }
