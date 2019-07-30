@@ -1,0 +1,20 @@
+name: app
+options:
+  bundleIdPrefix: com.demo.app
+targets:
+  app:
+    type: application
+    platform: iOS
+    deploymentTarget: "11.0"
+    sources: [app]
+    settings:
+      SWIFT_VERSION: "5.0"
+  Tests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "11.0"
+    sources: 
+      - path: appTests
+    settings:
+      #TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Example.app/Example"
+      SWIFT_VERSION: "5.0"
