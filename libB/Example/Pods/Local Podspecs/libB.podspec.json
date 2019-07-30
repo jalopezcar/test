@@ -1,0 +1,27 @@
+{
+  "name": "libB",
+  "version": "0.1.0",
+  "summary": "A short description of libB.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jalopezcar/libB",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jalopezcar": "jlopezcarreno@groupon.com"
+  },
+  "source": {
+    "git": "https://github.com/jalopezcar/libB.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "libB/Classes/**/*",
+  "dependencies": {
+    "libC": [
+      "~> 0.1.0"
+    ]
+  }
+}

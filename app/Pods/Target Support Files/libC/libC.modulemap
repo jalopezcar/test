@@ -1,0 +1,6 @@
+framework module libC {
+  umbrella header "libC-umbrella.h"
+
+  export *
+  module * { export * }
+}

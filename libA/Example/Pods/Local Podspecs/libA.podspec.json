@@ -1,0 +1,27 @@
+{
+  "name": "libA",
+  "version": "0.1.0",
+  "summary": "A short description of libA.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jalopezcar/libA",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jalopezcar": "jlopezcarreno@groupon.com"
+  },
+  "source": {
+    "git": "https://github.com/jalopezcar/libA.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "libA/Classes/**/*",
+  "dependencies": {
+    "libB": [
+      "~> 0.1.0"
+    ]
+  }
+}
