@@ -1,8 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='libA_Tests.xctest' tests='3' failures='0'>
-  <testsuite name='libA_Tests.TableOfContentsSpec' tests='3' failures='0'>
-    <testcase classname='libA_Tests.TableOfContentsSpec' name='these_will_fail__these_will_pass__can_do_maths' time='0.002'/>
-    <testcase classname='libA_Tests.TableOfContentsSpec' name='these_will_fail__these_will_pass__can_read' time='0.001'/>
-    <testcase classname='libA_Tests.TableOfContentsSpec' name='these_will_fail__these_will_pass__will_eventually_pass' time='0.501'/>
-  </testsuite>
-</testsuites>
+<testsuites tests='0' failures='0'/>

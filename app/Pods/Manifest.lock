@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: 851324964af3f60ce416e68017cc6fef7ebd53b0
+PODS:
+  - libA (0.1.0)
+  - libB (0.1.0)
+
+DEPENDENCIES:
+  - libA (from `../libA`)
+  - libB (from `../libB`)
+
+EXTERNAL SOURCES:
+  libA:
+    :path: "../libA"
+  libB:
+    :path: "../libB"
+
+SPEC CHECKSUMS:
+  libA: a5020fc673a4cb3a7710d94a437f29eccc52380c
+  libB: d75e836f4f95f4cd81108812094cc131378198d7
+
+PODFILE CHECKSUM: 0bf1f49f66a336fefd233f3d57b60bec7db7556b
 
 COCOAPODS: 1.6.1

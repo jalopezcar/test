@@ -14,14 +14,14 @@ jobs:
       - checkout
 
       # Install CocoaPods
-      - run:
-          name: Install CocoaPods
-          command: cd app && pod install
+      #- run:
+      #    name: Install CocoaPods
+      #    command: cd app && pod install
 
       # Build the app and run tests
       - run:
           name: Build and run tests
-          command: fastlane scan
+          command: cd app && fastlane test
           environment:
             SCAN_DEVICE: iPhone 6
             SCAN_SCHEME: WebTests
