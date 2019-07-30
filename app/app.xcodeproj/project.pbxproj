@@ -273,6 +273,8 @@
 				"${PODS_ROOT}/Target Support Files/Pods-app_Example/Pods-app_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/libA/libA.framework",
 				"${BUILT_PRODUCTS_DIR}/libB/libB.framework",
+				"${BUILT_PRODUCTS_DIR}/libC/libC.framework",
+				"${BUILT_PRODUCTS_DIR}/libD/libD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -280,6 +282,8 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libA.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

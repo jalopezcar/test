@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "libB/Classes/**/*"
+  "source_files": "libB/Classes/**/*",
+  "dependencies": {
+    "libC": [
+      "~> 0.1.0"
+    ]
+  }
 }

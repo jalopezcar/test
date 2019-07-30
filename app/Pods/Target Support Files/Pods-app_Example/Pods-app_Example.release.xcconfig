@@ -1,9 +1,9 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/libA" "${PODS_CONFIGURATION_BUILD_DIR}/libB"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/libA" "${PODS_CONFIGURATION_BUILD_DIR}/libB" "${PODS_CONFIGURATION_BUILD_DIR}/libC" "${PODS_CONFIGURATION_BUILD_DIR}/libD"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/libA/libA.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/libB/libB.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/libA/libA.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/libB/libB.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/libC/libC.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/libD/libD.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "libA" -framework "libB"
+OTHER_LDFLAGS = $(inherited) -framework "libA" -framework "libB" -framework "libC" -framework "libD"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

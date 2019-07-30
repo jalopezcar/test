@@ -155,10 +155,14 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/libA/libA.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/libB/libB.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libC/libC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libD/libD.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/libA/libA.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/libB/libB.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libC/libC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/libD/libD.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

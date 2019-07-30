@@ -1,21 +1,33 @@
 PODS:
-  - libA (0.1.0)
-  - libB (0.1.0)
+  - libA (0.1.0):
+    - libB (~> 0.1.0)
+  - libB (0.1.0):
+    - libC (~> 0.1.0)
+  - libC (0.1.0)
+  - libD (0.1.0)
 
 DEPENDENCIES:
   - libA (from `../libA`)
   - libB (from `../libB`)
+  - libC (from `../libC`)
+  - libD (from `../libD`)
 
 EXTERNAL SOURCES:
   libA:
     :path: "../libA"
   libB:
     :path: "../libB"
+  libC:
+    :path: "../libC"
+  libD:
+    :path: "../libD"
 
 SPEC CHECKSUMS:
-  libA: a5020fc673a4cb3a7710d94a437f29eccc52380c
-  libB: d75e836f4f95f4cd81108812094cc131378198d7
+  libA: 96a55f14ac4fcedfb5e170691b71798712c0370b
+  libB: cb25b183f0a7fa29ece7277112b2dd40cb7fde3f
+  libC: 9ae119d10f5ead00764e8e9efb4a132df755c774
+  libD: 9b27b2167f44ea12a196c43fdea4dde67e23b9fc
 
-PODFILE CHECKSUM: 0bf1f49f66a336fefd233f3d57b60bec7db7556b
+PODFILE CHECKSUM: 6d48e9f0dc6de7c1daf099f4ade7b3619b60102e
 
 COCOAPODS: 1.6.1

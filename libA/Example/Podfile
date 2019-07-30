@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'libA_Example' do
   pod 'libA', :path => '../'
+  pod 'libB', :path => '../libB'
+  pod 'libC', :path => '../libC'
 
   target 'libA_Tests' do
     inherit! :search_paths
