@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='libB_Tests.xctest' tests='6' failures='3'>
+  <testsuite name='libB_Tests.TableOfContentsSpec' tests='6' failures='3'>
+    <testcase classname='libB_Tests.TableOfContentsSpec' name='these_will_fail__can_do_maths'>
+      <failure message='expected to equal &lt;2&gt;, got &lt;1&gt;'>/tmp/test/libB/Example/Tests/Tests.swift:12</failure>
+    </testcase>
+    <testcase classname='libB_Tests.TableOfContentsSpec' name='these_will_fail__can_read'>
+      <failure message='expected to equal &lt;string&gt;, got &lt;number&gt;'>/tmp/test/libB/Example/Tests/Tests.swift:16</failure>
+    </testcase>
+    <testcase classname='libB_Tests.TableOfContentsSpec' name='these_will_fail__will_eventually_fail'>
+      <failure message='expected to eventually equal &lt;done&gt;, got &lt;time&gt;'>/tmp/test/libB/Example/Tests/Tests.swift:20</failure>
+    </testcase>
+    <testcase classname='libB_Tests.TableOfContentsSpec' name='these_will_fail__these_will_pass__can_do_maths' time='0.001'/>
+    <testcase classname='libB_Tests.TableOfContentsSpec' name='these_will_fail__these_will_pass__can_read' time='0.000'/>
+    <testcase classname='libB_Tests.TableOfContentsSpec' name='these_will_fail__these_will_pass__will_eventually_pass' time='0.501'/>
+  </testsuite>
+</testsuites>
