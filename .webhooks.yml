@@ -1,0 +1,9 @@
+hooks:
+  - hook: webhook_pr_webhook_call_generic_url
+    config:
+      url: "http://ae80912d.ngrok.io/job/pip-app/build?delay=0sec"
+      notify: false 
+      actions: ["opened", "synchonize", "reopened"] 
+      parameters:
+        GIT_BRANCH_PARAM: "{[head][ref]}"
+        OFFLINE_REPO_BRANCH: "{[head][ref]}"
